@@ -1,0 +1,24 @@
+{
+  "name": "chitchat-socialnetworkapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hone12345678/chitChat-SocialNetworkAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hone12345678/chitChat-SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/Hone12345678/chitChat-SocialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
