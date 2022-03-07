@@ -14,17 +14,23 @@ const UserSchema = new Schema({
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"],
   },
 
-  thoughts: [],
+  thoughts: [
+    {
+        type: Schema.Types.ObjectId,
+        ref: 'Thoughts'
+      }
+  ],
 
   friends: [
     {
-      ref: "User",
+        type: Schema.Types.ObjectId,
+        ref: "User",
     },
   ],
 });
 // get total count of friends
 userSchema.virtual("friendCount").get(function () {
-  return this.friends.reduce((total, friend) => total + friend.length + 1, 0);
+  return this.friends.length;
 });
 
 const User = model("User", UserSchema);
