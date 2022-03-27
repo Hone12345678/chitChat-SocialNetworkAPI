@@ -54,3 +54,5 @@ Mock-Up
 ## Video
 ![image](https://user-images.githubusercontent.com/46331608/160264966-71613cfc-7efa-4049-ba74-ad2379f20013.png)
 
+https://drive.google.com/file/d/1jbyKY-CAi2mMDiVLXYprjnovAdU4SMrD/view
+
