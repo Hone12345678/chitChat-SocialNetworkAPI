@@ -19,15 +19,15 @@ const {
   deleteFriend
 } = require('../../controllers/user-controller');
 
-// get all user
-// /api/user
+// get all users
+// /api/users
 router
   .route('/')
   .get(getAllUser)
   .post(createUser);
 
 // get a single user by id
-// /api/user/:id
+// /api/users/:id
 router
   .route('/:id')
   .get(getUserById)
@@ -36,7 +36,7 @@ router
 
 router
 .route(':thoughtId/reactions')
-.post(addReaction)
-.delete(deleteReaction);
+.post(addFriend)
+.delete(deleteFriend);
 
 module.exports = router;
